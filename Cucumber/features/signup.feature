@@ -1,7 +1,7 @@
 Feature: Sign up in losestudiantes
     As an user I want to sign up in losestudiantes website in order to rate teachers
 
-Scenario Outline: Sign up failed with wrong inputs
+Scenario: Sign up failed with wrong inputs
     Given I go to losestudiantes home screen
     When I open the login screen
     And I enter my name lastname and select my program
